@@ -1,12 +1,31 @@
-h1 {
-    color: #27aedb;
+/* src/App.css */
+.App {
+    font-family: Arial, sans-serif;
     text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+    margin: 20px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  #current-user {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
